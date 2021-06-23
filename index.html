@@ -1,0 +1,39 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    
+    
+
+</head>
+
+<body>
+    <div class="container">
+
+       
+            <h1>Lista de Tarefas</h1>
+            <div class="colunas">
+            <form action="" id="form" onclick="resetForm()">
+
+                <input type="text" name="task" id="addTask" placeholder=" Digite sua tarefa" >
+                <input  class = "addBtn" type="button" name="" value="Adicionar" onclick="addElement()">
+                <input type="button" class = "addBtn" value="Limpar Lista" onclick="delAll()">
+
+            </form>
+            <div class="itens"> </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>
